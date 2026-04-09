@@ -1,0 +1,12 @@
+# Ignore private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Ignore Terraform secrets
+terraform.tfvars
+
+# Optional (safe to ignore)
+.terraform/
+*.tfstate.backup
